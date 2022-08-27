@@ -1,17 +1,8 @@
 /* CSS Reset */
-/* * {
-} */
 
 *{
   box-sizing: border-box;
 }
-
-/* CSS Variables */
-/* :root { */
-  /* --primarycolor: red; */
-  /* --secondarycolor: gainsboro; */
-  /* --color: black; */
-/* } */
 
 html{
   scroll-behavior: smooth;
@@ -20,7 +11,6 @@ html{
 /* Body */
 
 body {
-  /* font-family: "Roboto", sans-serif; */
   font-family: "Comfortaa", cursive;
   margin: 0;
   padding: 0;
@@ -32,12 +22,9 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* flex-wrap: wrap; */
   font-weight: bold;
-  /* margin-top: 10px; */
   position: sticky;
   top: 0px;
-  /* background-color: rgb(255, 255, 255); */
   background-color: beige;
 }
 
@@ -50,22 +37,13 @@ body {
 }
 
 .navbar ul {
-  /* margin-top: 18px; */
   display: flex;
-  /* flex-wrap: wrap; */
   list-style: none;
 }
 
 .navbar ul li {
-  /* display: inline-block; */
-  /* display: flex; */
-  /* flex-wrap: wrap; */
   margin: 0px 40px;
 }
-
-/* ul+a{
-    margin-top: 18px;
-} */
 
 .navbar a {
   text-decoration: none;
@@ -79,7 +57,6 @@ body {
 }
 
 .navbar #contact {
-  /* border: 2px solid red; */
   padding: 5px 10px;
   border-radius: 20px;
   background-color: red;
@@ -88,7 +65,6 @@ body {
 }
 
 #contact:hover {
-  /* color: white; */
   color: red;
   background-color: white;
   border: 2px solid red;
@@ -114,17 +90,11 @@ body {
 
 /* Hero */
 
-/* .hero .heroimg img{
-    width: 100%;
-    height: 88vh;
-} */
-
 .hero .heroimg::before {
-  background-image: url("/images/food-web-banner-02-copy.jpg");
+  background-image: url("../images/food-web-banner-02-copy.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: 1263.6px; */
   width: 100%;
   height: 500px;
   position: absolute;
@@ -132,43 +102,32 @@ body {
   left: 0;
   content: "";
   z-index: -1;
-  /* opacity: 0.9; */
 }
 
 .heroimg {
-  /* width: 666px; */
   height: 170px;
   margin: 170px auto;
-  /* color: white; */
-  /* font-size: larger; */
 }
 
 /* Services */
 
 .services {
   display: flex;
-  /* align-items: center; */
-  /* justify-content: space-around; */
   flex-wrap: wrap;
   margin: 30px 0px;
-  /* background-color: rgb(232, 215, 29); */
   padding: 20px 0px;
 }
 
 .services::before{
-  background-image: url('E:\Code with Harry\Web\Project -2\images\kfc-deviantart-colonel-sanders-vtcone74z99srq0j.jpg');
+  background-image: url('../images/kfc-deviantart-colonel-sanders-vtcone74z99srq0j.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
   content: "";
   z-index: -1;
-  /* width: 1263px; */
   width: 100%;
   height: 440px;
-  /* height: 100%; */
-  /* opacity: 1.0; */
-  /* top: 50px; */
 }
 
 .items {
@@ -194,7 +153,6 @@ body {
 .items img {
   width: 100px;
   height: 100px;
-  /* margin: 10px 90px; */
   margin: auto;
   display: block;
 }
@@ -212,7 +170,6 @@ body {
   margin: 30px 20px;
   box-shadow: 4px 4px 5px;
   background-color: rgb(243, 242, 238);
-  /* height: 300px; */
 }
 
 .awards img {
@@ -222,14 +179,13 @@ body {
 }
 
 .awards-section::before{
-  background-image: url('/images/award-bg-2.jpg');
+  background-image: url('../images/award-bg-2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
   content: "";
   z-index: -1;
-  /* width: 1263px; */
   width: 100%;
   height: 380px;
   opacity: 0.8;
@@ -265,14 +221,13 @@ body {
 }
 
 .partners-section::before{
-  background-image: url('/images/partners-bg.jpg');
+  background-image: url('../images/partners-bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
   content: "";
   z-index: -1;
-  /* width: 1263px; */
   width: 100%;
   height: 380px;
   opacity: 0.6;
@@ -280,21 +235,18 @@ body {
 
 
 /* Form section */
+
 .order::before {
-  background-image: url("/images/contact-banner.jpg");
+  background-image: url("../images/contact-banner.jpg");
   background-position: center center;
   background-attachment: scroll;
   background-repeat: no-repeat;
-  /* background-size: 1400px; */
-  /* background-size: contain; */
   background-size: cover;
   position: absolute;
   content: "";
   z-index: -1;
-  /* width: 1260px; */
   width: 100%;
   height: 650px;
-  /* height: 100%; */
   border-radius: 50px;
   opacity: 0.6;
 }
@@ -304,16 +256,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 2px solid black; */
-}
-
-.order .form {
-  /* width: 555px; */
-  /* margin-left: 50px; */
-  /* margin-right: 50px; */
-  /* margin-top: 100px; */
-  /* border: 2px solid black; */
-  /* padding: 10px 30px; */
 }
 
 .form h1 {
@@ -362,6 +304,7 @@ body {
 }
 
 /* Footer */
+
 footer {
   border: 2px solid black;
   background-color: black;
@@ -385,10 +328,10 @@ footer #right{
 
 
 /* Gloabl definition */
+
 h2{
   font-size: 2.0rem;
   text-align: center;
-  /* margin: 0; */
 }
 
 
